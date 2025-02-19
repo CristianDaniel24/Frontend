@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+h1 {
+  text-align: center;
+}
+.option {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

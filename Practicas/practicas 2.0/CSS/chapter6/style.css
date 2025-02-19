@@ -1,0 +1,17 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+}
+
+/*
+p {
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+}
+*/
+
+p {
+  text-transform: capitalize;
+  text-align: justify;
+}
