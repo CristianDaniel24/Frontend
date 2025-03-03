@@ -1,0 +1,32 @@
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  text-align: center;
+  list-style-position: outside;
+  color: #00f;
+  line-height: 1.6;
+  /*
+  list-style-image: url(/chapter8/img/checkmark.png);
+  list-style: square url(/chapter8/img/checkmark.png) inside;
+    */
+}
+
+ul,
+li:nth-child(even) {
+  color: red;
+}
+
+ul ::marker {
+  color: red;
+  font-size: 1.5rem;
+  content: "Only $5 >>";
+}
