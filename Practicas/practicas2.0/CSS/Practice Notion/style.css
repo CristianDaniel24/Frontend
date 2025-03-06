@@ -71,7 +71,10 @@ main {
 }
 
 .container-pricing {
-  margin-top: 2x0px;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #p--main {
@@ -82,8 +85,8 @@ main {
 }
 
 #tx-main {
-  text-align: center;
   margin-bottom: 30px;
+  max-width: 550px;
 }
 
 body {
@@ -91,11 +94,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  max-width: 900px;
-  margin: 40px auto;
 }
 
 .title {
@@ -119,7 +117,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px #000;
+  box-shadow: 0 4px 8px gray;
   width: 250px;
   transition: transform 0.3s ease-in-out;
 }
@@ -161,7 +159,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 10px;
 }
 
@@ -182,15 +180,6 @@ body {
 
 .btn-primary:hover {
   background: #0056b3;
-}
-
-.btn-dark {
-  background: #343a40;
-  color: white;
-}
-
-.btn-dark:hover {
-  background: #1d2124;
 }
 
 @media (max-width: 768px) {
